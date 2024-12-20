@@ -2,7 +2,7 @@
 "use client";
 
 import Typewriter from 'typewriter-effect';
-import { FaFacebook, FaLinkedin, FaGithub, } from 'react-icons/fa';
+import {FaLinkedin, FaGithub, } from 'react-icons/fa';
 import React from 'react';
 import Image from 'next/image';
 import Profile from "../../../public/dummy image.png"
@@ -45,7 +45,6 @@ const Home = () => {
 <ul className='mt-6 flex space-x-3 items-center border-b-green-800 border-b-[1px] pb-8'>
 
 <Link href="https://www.linkedin.com/in/mueza-ejaz086/"><FaLinkedin className='hover:text-[#0a6335]' size={30} /></Link>
-{/* <Link href="https://www.facebook.com/muhammad.shahroz.58"><FaFacebook className='hover:text-[#0a6335]' size={30} /></Link> */}
 <Link href="https://github.com/Mueza-Ejaz"><FaGithub className='hover:text-[#0a6335]' size={30} /></Link>
 
 <a href="./muezaejaz-resume.pdf" download className='bg-[#0a6335] flex justify-center items-center text-white h-8 w-36 rounded-md font-bold text-center p-1 text-[.8rem] active:scale-[.97] hover:bg-white hover:text-[#0a6335]'>

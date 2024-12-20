@@ -1,6 +1,6 @@
 "use client";
 
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -71,12 +71,7 @@ const Contact = () => {
             </p>
 
             <div className="flex md:justify-start justify-center py-2 rounded-lg w-full">
-              {/* <Link */}
-                {/* href="https://www.facebook.com/mueza-ejaz" */}
-                {/* target="_blank" */}
-              {/* > */}
-                {/* <FaFacebookF className="text-2xl hover:text-blue-500 mr-4" /> */}
-              {/* </Link> */}
+              
               <Link
                 href="https://www.linkedin.com/in/mueza-ejaz086/"
                 target="_blank"
